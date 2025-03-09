@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+button {
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.container {
+    background-color: #A1D6E2;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    box-shadow: 5px 5px 5px 5px #d0dde0;
+}
+
+#add-task-btn {
+    background-color: blue;
+    color: #fff;
+    width: 20%;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#todo-input {
+    border-radius: 5px;
+    border: 1px solid #1995AD;
+    width: 75%;
+
+}
+
+#todo-list {
+    display: block;
+    list-style: none;
+    list-style-position: outside;
+    border-radius: 5px;
+    padding-left: 0px;
+}
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    color: rgb(248, 253, 254);
+    background-color: #1995AD;
+    box-shadow: 1px 1px 5px 5px #d0dde0;
+
+}
+
+#icons {
+    width: 30px;
+}
